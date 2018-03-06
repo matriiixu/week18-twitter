@@ -6,7 +6,8 @@
         version     = "1.0.0" >
 
     <!-- versionCode is optional and Android only -->
-
+    <platform name="ios"></platform>
+    
     <name>Twitter Search</name>
 
     <description>
