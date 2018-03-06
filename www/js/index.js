@@ -11,11 +11,12 @@ function onDeviceReady() {
     
     
 	//need to initialise OAuth here
-	OAuth.initialize('public-key-goes-here');
-    
+	//OAuth.initialize('public-key-goes-here');
+    OAuth.initialize('RN_7Mu_Y0881qIJvDEqyChZJokw');
+    console.log(OAuth.getVersion());
     //authorise
 	OAuth.popup('twitter').done(function(result) {
-        
+         
         //authorisation successful 
         console.log(result);
         auth_result = result;

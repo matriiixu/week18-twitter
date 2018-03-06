@@ -23,5 +23,6 @@
 	<!-- give access to all domains in the outside world -->
     <plugin name="cordova-plugin-whitelist"/>
 	<access origin="*" />
+    <plugin spec="https://github.com/oauth-io/oauth-phonegap.git" />
 
 </widget>
