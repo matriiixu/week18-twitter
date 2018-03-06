@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mob.app.dev.twittersearch"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Twitter Search</name>
+
+    <description>
+        An example of using OAuth with Twitter API
+    </description>
+
+    <author href="http://www.worcester.ac.uk/discover/chris-bowers.html" email="c.bowers@worc.ac.uk">
+        Chris P. Bowers
+    </author>
+	
+	<!-- add plugins required for OAuth.io here-->
+	
+	<!-- give access to all domains in the outside world -->
+    <plugin name="cordova-plugin-whitelist"/>
+	<access origin="*" />
+
+</widget>
