@@ -50,6 +50,14 @@ function search() {
         function(data) {
 		
                 //its worked - do something with the resultant data
+            $("#tweetList").empty();
+        
+			//populate list
+			for(index =0; index<data.statuses.length; index++) {
+				$("#tweetList").append("<li>" + data.statuses[index].text + "</li>");
+			}
+        
+            $("#tweetList").listview('refresh');
 		
     }).fail(
             
