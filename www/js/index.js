@@ -34,7 +34,7 @@ function search() {
 	
 	   
     //need to get the search terms from the text box in HTML
-    var search_terms = "...";
+    var search_terms = document.getElementById('searchTerms').value;
 
     //create an URL for the REST API call
 	//The first bit of the url  - https://api.twitter.com - will automatically be included
